@@ -95,14 +95,14 @@
     Для того, чтобы была возможность подключиться извне, необходимо выполнить следующие действия:
     1.  Установить postgresql-client 
         1.1. Добавляем репозиторий командой
-         sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
-    2. Добавляем ключ доступа
-        wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
-    3. Обновляем список пакетов
-        sudo apt-get update
-    4. Устанавливаем пакет postgresql-client
+            sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+        1.2. Добавляем ключ доступа
+            wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+        1.3. Обновляем список пакетов
+            sudo apt-get update
+        1.4. Устанавливаем пакет postgresql-client
         sudo apt-get install postgresql-client
-    5. После этого получаем возможность открывать консоль работы с PostgreSQL (psql) на локальной машине 
+    2. После этого получаем возможность открывать консоль работы с PostgreSQL (psql) на локальной машине 
 
 ![Подключение к PostgreSQL извне](imgs/7.png)
 
