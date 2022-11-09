@@ -22,7 +22,7 @@
     insert into test values('1');
     \q
 
-![Создание таблиц](imgs\1.png)
+![Создание таблиц](imgs/1.png)
 
 Останавливаем кластер PostgreSQL 14 
 
