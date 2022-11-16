@@ -73,7 +73,7 @@
 
 8. Настраиваем паузу при достижении лимита всеми процессами _autovacuum_vacuum_cost_delay_
 
-    autovacuum_vacuum_cost_delay = 2ms
+        autovacuum_vacuum_cost_delay = 2ms
 
 Перезапустим кластер, чтобы применились настройки
 
